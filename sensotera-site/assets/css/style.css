@@ -1,1 +1,118 @@
-body{font-family:sans-serif;background:#fff;color:#111;}
+/* --- ZÁKLAD --- */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #1A1A1A;
+    background: #FFFFFF;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.section {
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bg-light {
+    background: #F6F4EF;
+}
+
+/* --- HEADER --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px;
+    border-bottom: 1px solid #E8E8E8;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.logo {
+    height: 32px;
+}
+
+.nav a {
+    margin-left: 28px;
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: 1px solid #C98C43;
+    border-radius: 4px;
+    color: #C98C43;
+}
+
+/* --- HERO --- */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #444;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background: #C98C43;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-outline {
+    padding: 12px 24px;
+    border: 1px solid #C98C43;
+    color: #C98C43;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+/* --- SLUŽBY --- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    border: 1px solid #E8E8E8;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+}
+
+/* --- PROČ MY --- */
+.list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* --- FOOTER --- */
+.footer {
+    background: #F6F4EF;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+}
