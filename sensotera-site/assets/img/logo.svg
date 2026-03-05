@@ -1,6 +1,8 @@
-<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="28" font-family="Inter, sans-serif" font-size="28" fill="#1A1A1A" letter-spacing="2">
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SENSOTERA">
+  <title>SENSOTERA</title>
+  <text x="0" y="28" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="28" fill="#1A1A1A" letter-spacing="2">
     SENSOTERA
   </text>
-  <rect x="0" y="32" width="120" height="3" fill="#C98C43" rx="2"/>
+  <rect x="0" y="32" width="122" height="3" fill="#C98C43" rx="2"/>
 </svg>
+``
